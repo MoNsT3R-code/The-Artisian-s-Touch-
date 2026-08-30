@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Artisan's Touch - Resin Art Shop</title>
+    <style>
+        body {
+            /* Adds an aesthetic resin/fluid-themed background image */
+            background-image: url("https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1920&q=80");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 40px 20px;
+            color: #333;
+        }
+
+        .shop-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.92); /* Translucent white wrapper */
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+
+        .shop-subtitle {
+            color: #2980b9;
+            margin-top: 0;
+            font-weight: 600;
+        }
+
+        .intro-text {
+            font-size: 1.1em;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .product-card {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            display: inline-block;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .product-card img {
+            border-radius: 8px;
+            object-fit: cover;
+            float: left;
+            margin-right: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .product-details {
+            overflow: hidden;
+        }
+
+        pre {
+            font-family: inherit;
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 5px;
+            border-left: 4px solid #2980b9;
+            margin: 10px 0;
+            white-space: pre-line; /* Keeps your list looking neat */
+        }
+
+        button {
+            background-color: #2980b9;
+            color: white;
+            border: none;
+            padding: 10px 18px;
+            margin-right: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background 0.2s;
+        }
+
+        button:hover {
+            background-color: #1f6391;
+        }
+
+        button.cart-btn {
+            background-color: #27ae60;
+        }
+
+        button.cart-btn:hover {
+            background-color: #1e8449;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #ddd;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="shop-container">
+        <h1>Welcome to The Artisan's Touch</h1>
+        <h3 class="shop-subtitle">The Resin Art Shop</h3>
+        <hr>
+
+        <p class="intro-text">
+            Let's dive into the resin art world, where we will be having lots of decoration pieces, tables, blocks, and much more.
+        </p>
+        <br>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=255&h=255&q=80" width="255" height="255" alt="Resin scenery with essential tools">
+            <div class="product-details">
+                <pre>
+                    • An aesthetic scenery with multiple essential tools
+                    • Unbreakable
+                    • Less cost, more features
+                    • Cost = Pkr 1500
+                </pre>
+                <button type="button">Check out</button>
+                <button type="button" class="cart-btn">Add To Cart 🛒</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?auto=format&fit=crop&w=255&h=255&q=80" width="255" height="255" alt="Resin clock ⏰">
+            <div class="product-details">
+                <pre>
+                    • A stunning clock with multiple features
+                    • Unbreakable
+                    • Less cost, more features
+                    • Cost = Pkr 700
+                </pre>
+                <button type="button">Check out</button>
+                <button type="button" class="cart-btn">Add To Cart 🛒</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=255&h=255&q=80" width="255" height="255" alt="Resin bookmarks 🔖">
+            <div class="product-details">
+                <pre>
+                    • Aesthetic bookmarks with multiple features
+                    • Unbreakable
+                    • Less cost, more features
+                    • Cost = Pkr 200
+                </pre>
+                <button type="button">Check out</button>
+                <button type="button" class="cart-btn">Add To Cart 🛒</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
